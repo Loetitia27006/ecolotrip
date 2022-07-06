@@ -24,7 +24,7 @@
             </p><input type="password" name="password" id="" placeholder="confirme ton mot de passe"></p>
             <p class="cross" ><input class="check"type="checkbox" name="check" id="">recevoir la newsletter</p>
             <p ><button type="submit">  S'inscrire</button></p>
-            <p class="connection">déjà un compte ? <a href="http://localhost/ecolotrip/connexion.php">Se connecter</a></p>
+            <p class="connection">déjà un compte ? <a href="connexion.php">Se connecter</a></p>
         </form>
     </div>
 
