@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'quicksand', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 1em;
+}
+.form{
+    margin: 0 25%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #41C2F4;
+    width: 50%;
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    -ms-border-radius: 30;
+    -o-border-radius: 30;
+}
+ form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+    border-radius: 0.5em;
+ }
+ .inscription{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+ .inscription p{
+    margin-left: 60px;
+ }
+ .inscription p a{
+    padding-left: 10px;
+    text-decoration: none;
+ }
+ p button{
+    background-color:#F9B532;
+    padding: 10px;
+    border:none;
+    border-radius: 30px;
+    cursor: pointer;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
