@@ -94,15 +94,15 @@ form{
     -o-border-radius: 20px;
 }
 .connection{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 600;
+    display: block;
+    align-self: flex-end;
+
 }
+
 .connection a{
     color: black;
-    text-decoration: none;
     padding-left: 10px;
+    
 }
