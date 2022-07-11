@@ -38,7 +38,9 @@ form{
     width: 100%;
     padding: 1em;
     border-radius: 0.5em;
+    color: #F9B532;
  }
+
  input{
     border: none;
     border-radius: 10px;
@@ -46,14 +48,16 @@ form{
     margin-bottom: 10px;
     font-size: 40px;
     font-weight: 600;
-    color: #fff;
+
     width: 600px;
     height: 70px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
 }
+
 textarea{
     border: none;
     border-radius: 10px;
@@ -61,13 +65,14 @@ textarea{
     margin-bottom: 10px;
     font-size: 40px;
     font-weight: 600;
-    color: #fff;
+   
     width: 600px;
     height: 400px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
 }
 button{
     background-color:#F9B532;

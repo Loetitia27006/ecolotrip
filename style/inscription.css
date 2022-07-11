@@ -69,7 +69,7 @@ form{
     margin-bottom: 10px;
     font-size: 40px;
     font-weight: 600;
-    color: #fff;
+    color: gray;
     width: 600px;
     height: 70px;
     -webkit-border-radius: 10px;
@@ -105,4 +105,9 @@ form{
     color: black;
     padding-left: 10px;
     
+}
+
+.errors {
+    display: flex;
+    justify-content: center;
 }
