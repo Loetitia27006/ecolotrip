@@ -28,7 +28,7 @@ $title = 'ECOLOTRIP'
             <p class="connection"><button type="submit">  Se connecter</button></p>
             <div class="inscription">
                 <p class="mdp"><a href="#">mot de passe oublié</a></p>
-                <p >pas de compte ?<a href="#">s'inscrire</a></p>
+                <p >pas de compte ?<a href="inscription.php">s'inscrire</a></p>
             </div>
         </form>
     </div>
