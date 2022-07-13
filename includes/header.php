@@ -27,10 +27,10 @@
         </div>
         </div>
         <div class="logo">
-            <img src="./image/image.jpg" alt="">
+            <img src="./images/logo.svg" alt="">
         </div>
         <div class="login">
-            <img src="./image/login.jpg" alt="">
+            <img src="./images/login.svg" alt="">
         </div>
     </nav>
 </header>
