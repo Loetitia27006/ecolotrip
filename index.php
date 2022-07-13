@@ -37,6 +37,9 @@
                     <input type="text" name="date" placeholder="Date de retour">
                     <input type="number" name="voyageurs" id="" min="1" placeholder="voyageur">
                 </div>
+                <div class="button">
+                    <button>Valider</button>
+                </div>
             </form>
         </div>
 
