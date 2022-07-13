@@ -36,8 +36,8 @@ h1{
     height: 100px;
     display: flex;
     align-items: center;
-    animation: slideshow 15s  infinite;
-    -webkit-animation: slideshow 15s  infinite;
+    animation: slideshow 15s ease-in-out ;
+    -webkit-animation: slideshow 15s ease-in-out ;
 }
 .slide img{
    height: 100px;
@@ -56,7 +56,7 @@ h1{
   left: 20%;
   width: 40px;
   height: 40px;
-  top: 75%;
+  top: 95%;
   margin: -20px 0 0 -20px;
   transform: rotate(135deg);
   border-left: none;
@@ -75,7 +75,7 @@ h1{
     right: 20%;
     width: 40px;
     height: 40px;
-    top: 75%;
+    top: 95%;
     margin: -20px 0 0 -20px;
     transform: rotate(-40deg);
     border-left: none;
@@ -89,4 +89,77 @@ h1{
     -ms-transform: rotate(-40deg);
     -o-transform: rotate(-40deg);
     -webkit-transform: rotate(-40deg);
+}
+.arrowLeft:hover, .arrowRight:hover{
+    border-right: 2px #69DC8A solid;
+    border-bottom: 2px #69DC8A solid;
+}
+.subtext{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.typeTravel{
+    width: 150px;
+    height: 70px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #F4ED41;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    border: #000 solid 3px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.typeTravel2{
+    width: 150px;
+    height: 70px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #69DC8A;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    border-radius: 15px;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.subtext a{
+    color: #fff;
+    text-decoration: none;
+}
+.form{
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border: #000 solid 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:15px;
+    box-shadow: #69DC8A -10px 10px 2px 1px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    -ms-border-radius:15px;
+    -o-border-radius:15px;
+}
+.form input{
+    height: 50px;
+    border: #000 solid 1px;
+    border-radius: 15px;
+    padding: 0 10px 0 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
 }
