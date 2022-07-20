@@ -5,6 +5,8 @@
 body {
     margin: 0;
 }
+    
+
 
 nav {
     display: flex;
@@ -14,11 +16,16 @@ nav {
     height: 200px;
 }
 
-.logo img {
+.logo img{
 
 
+<<<<<<< Updated upstream
     height: 150px;
     margin-top: 20px;
+=======
+    height: 100px;
+    margin-top: 10px;
+>>>>>>> Stashed changes
     margin-left: 20px;
 
 }
@@ -130,7 +137,7 @@ nav {
 #menuToggle input:checked~ul {
     transform: none;
 }
-.login img{
+.login {
     height: 100px;
     margin-top: 20px;
     margin-left: 20px;

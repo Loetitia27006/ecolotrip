@@ -22,7 +22,7 @@ $title = 'ECOLOTRIP'
     <div class="form">
         <form action="" method="post">
             
-            <p><input type="email" name="email" id="" placeholder="ton adresse mail"></p>
+            <p><input type="email" name="email" id="" placeholder="ton adresse mail/pseudo"></p>
         
             </p><input type="password" name="password" id="" placeholder="ton mot de passe"></p>
             <p class="connection"><button type="submit">  Se connecter</button></p>

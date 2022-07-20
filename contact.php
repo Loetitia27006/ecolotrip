@@ -21,6 +21,7 @@
             <p><button type="submit">  Envoyer</button></p>
         </form>
     </div>
+    
     <?php include_once './includes/footer.php';?>
 </body>
 </html>
