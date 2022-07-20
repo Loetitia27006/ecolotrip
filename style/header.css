@@ -13,19 +13,14 @@ nav {
     justify-content: space-between;
     padding: 0;
     margin: 0;
-    height: 200px;
+    height: 100px;
 }
 
 .logo img{
 
 
-<<<<<<< Updated upstream
-    height: 150px;
     margin-top: 20px;
-=======
-    height: 100px;
-    margin-top: 10px;
->>>>>>> Stashed changes
+    height: 60px;
     margin-left: 20px;
 
 }
@@ -33,7 +28,7 @@ nav {
 #menuToggle {
     display: block;
     position: relative;
-    top: 50px;
+    top: 20px;
     left: 50px;
 
     z-index: 1;
@@ -137,8 +132,7 @@ nav {
 #menuToggle input:checked~ul {
     transform: none;
 }
-.login {
-    height: 100px;
+.login img{
+    height: 60px;
     margin-top: 20px;
-    margin-left: 20px;
 }

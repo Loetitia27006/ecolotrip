@@ -27,17 +27,10 @@
         </div>
         </div>
         <div class="logo">
-<<<<<<< Updated upstream
             <img src="./images/logo.svg" alt="">
         </div>
         <div class="login">
             <img src="./images/login.svg" alt="">
-=======
-            <img src="./image/logo.svg" alt="">
-        </div>
-        <div class="login">
-            <img src="./image/login.svg" alt="">
->>>>>>> Stashed changes
         </div>
     </nav>
 </header>
