@@ -8,21 +8,19 @@ body{
 }
 h1{
     text-align: center;
-    font-size: 81px;
+    font-size: 40px;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
 }
 .section1{
     background-color: #41C2F4;
+    height: 100vh;
 }
 .wrapper{
-    width: 100vw;
+    width: 700px;
     height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    margin:5% 25% ;   /* 25% from the left and right */
 }
 .slider{
     width: 1000px;
@@ -36,8 +34,8 @@ h1{
     height: 100px;
     display: flex;
     align-items: center;
-    animation: slideshow 15s ease-in-out ;
-    -webkit-animation: slideshow 15s ease-in-out ;
+    animation: slideshow 15s infinite;
+    -webkit-animation: slideshow 15s  ;
 }
 .slide img{
    height: 100px;
@@ -105,7 +103,7 @@ h1{
 }
 .typeTravel{
     width: 150px;
-    height: 70px;
+    height: 50px;
     font-weight: bold;
     color: #fff;
     background-color: #F9B532;
@@ -121,7 +119,7 @@ h1{
 }
 .typeTravel2{
     width: 150px;
-    height: 70px;
+    height: 50px;
     font-weight: bold;
     color: #fff;
     background-color: #69DC8A;
@@ -166,7 +164,8 @@ h1{
 button{
     background-color:#F9B532;
     padding: 10px;
-    margin: 15px;
+    margin: 20px;
+    float: right;
     border:none;
     border-radius: 20px;
     cursor: pointer;
@@ -184,6 +183,7 @@ button{
     border: none;
     border-radius: 10px;
     padding: 20px;
+    margin-top: 15px;
     margin-bottom: 10px;
     margin-left: 15px;
     font-size: 30px;
@@ -212,3 +212,24 @@ button{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+.offer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: -10px 10px 2px 1px  black;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+
+
+
+
+
+
+

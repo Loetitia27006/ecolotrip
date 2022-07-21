@@ -77,14 +77,13 @@
                 <img src="./images/camping.svg" alt="">
             </div>
             <div class="arrowRight"></div>
-        </div>
-        
-        
-        
-        
+        </div>  
     </div>
-        
-        
+      <div class="offer"><img src="images/offres.png" alt=""></div> 
+      <section class="travel">
+        <h2>Nos voyages les plus écolos</h2>
+        <h2>Les villes les plus populaires de France</h2>
+      </section>  
 
 <?php require "includes/footer.php";?>
 

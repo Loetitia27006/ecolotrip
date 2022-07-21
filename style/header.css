@@ -11,13 +11,13 @@ nav {
     justify-content: space-between;
     padding: 0;
     margin: 0;
-    height: 200px;
+    height: 150px;
 }
 
 .logo img {
 
 
-    height: 150px;
+    height: 80px;
     margin-top: 20px;
     margin-left: 20px;
 
@@ -26,7 +26,7 @@ nav {
 #menuToggle {
     display: block;
     position: relative;
-    top: 50px;
+    top: 20px;
     left: 50px;
 
     z-index: 1;
@@ -131,7 +131,7 @@ nav {
     transform: none;
 }
 .login img{
-    height: 100px;
+    height: 80px;
     margin-top: 20px;
     margin-left: 20px;
 }
