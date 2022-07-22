@@ -101,6 +101,14 @@
                 </div>
             </div>
       </section> 
+      <section class="newsletter">
+            <form action="" method="post">
+                <p>Recevez les dernières informations voyages sur votre boite mail<img src="./images/mail.svg" alt=""></p>
+                
+                <input type="text" name="mail" placeholder="Saisissez votre adresse e-mail">
+                <button>S'inscrire</button>
+            </form>
+      </section>
 
 <?php require "includes/footer.php";?>
 
