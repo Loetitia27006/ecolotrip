@@ -83,7 +83,24 @@
       <section class="travel">
         <h2>Nos voyages les plus écolos</h2>
         <h2>Les villes les plus populaires de France</h2>
-      </section>  
+      </section> 
+      <section class="avantage">
+            <h3>Les avantages d'utiliser écolotrip</h3> 
+            <div class="avantages">
+                <div class="possible">
+                    <img src="./images/avion.svg" alt="">
+                    <p>Des destinations de voyages variées et attractives</p>
+                </div>
+                <div class="possible">
+                    <img src="./images/ecologie.svg" alt="">
+                    <p>Possibilité de rembourser son empreinte carbone</p>
+                </div>
+                <div class="possible">
+                    <img src="./images/modify.svg" alt="">
+                    <p>Enregistrer ses photos sur son profil et faire profiter ses amis avec une présentation personnalisée</p>
+                </div>
+            </div>
+      </section> 
 
 <?php require "includes/footer.php";?>
 
