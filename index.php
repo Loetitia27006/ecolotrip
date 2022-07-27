@@ -47,37 +47,28 @@
     </section>
     
     <div class="wrapper">
-        
+    <div class="arrowLeft"></div>
         <div class="slider">
-        <div class="arrowLeft"></div>
+        
             <div class="slide">
-                <img src="./images/campagne.svg" alt="">
-                <img src="./images/mer.svg" alt="">            
-                <img src="./images/voiture.svg" alt="">
-                <img src="./images/ville.svg" alt="">
-                <img src="./images/montagne.svg" alt="">
-                <img src="./images/foret.svg" alt="">
-                <img src="./imgages/bus.svg" alt="">
-                <img src="./images/avion.svg" alt="">
-                <img src="./images/bateau.svg" alt="">
-                <img src="./images/velo.svg" alt="">
-                <img src="./images/camping.svg" alt="">
+                
+               <a href=""><img src="./images/campagne.svg" alt="campagne"></a> 
+               <a href=""><img src="./images/mer.svg" alt="mer"></a>            
+               <a href=""><img src="./images/voiture.svg" alt="voiture"></a>
+               <a href=""><img src="./images/ville.svg" alt="ville"></a>
+               <a href=""><img src="./images/montagne.svg" alt="montagne"></a>
+               <a href=""><img src="./images/foret.svg" alt="foret"></a>
+               <a href=""><img src="./imgages/bus.svg" alt="bus"></a>
+               <a href=""><img src="./images/avion.svg" alt="avion"></a>
+               <a href=""><img src="./images/bateau.svg" alt="bateau"></a>
+               <a href=""><img src="./images/velo.svg" alt="velo"></a>
+               <a href=""><img src="./images/camping.svg" alt="camping"></a>
+               
             </div>
-            <div class="slide">
-                <img src="./images/campagne.svg" alt="">
-                <img src="./images/mer.svg" alt="">      
-                <img src="./images/voiture.svg" alt="">
-                <img src="./images/ville.svg" alt="">
-                <img src="./images/montagne.svg" alt="">
-                <img src="./images/foret.svg" alt="">
-                <img src="./imgages/bus.svg" alt="">
-                <img src="./images/avion.svg" alt="">
-                <img src="./images/bateau.svg" alt="">
-                <img src="./images/velo.svg" alt="">
-                <img src="./images/camping.svg" alt="">
-            </div>
-            <div class="arrowRight"></div>
-        </div>  
+                
+            
+        </div> 
+        <div class="arrowRight"></div> 
     </div>
       <div class="offer"><img src="images/offres.png" alt=""></div> 
       <section class="travel">
@@ -92,11 +83,11 @@
                     <p>Des destinations de voyages variées et attractives</p>
                 </div>
                 <div class="possible">
-                    <img src="./images/ecologie.svg" alt="">
+                    <img src="./images/écologie-non-3d.svg" alt="">
                     <p>Possibilité de rembourser son empreinte carbone</p>
                 </div>
                 <div class="possible">
-                    <img src="./images/modify.svg" alt="">
+                    <img src="./images/photos-non-3d.svg" alt="">
                     <p>Enregistrer ses photos sur son profil et faire profiter ses amis avec une présentation personnalisée</p>
                 </div>
             </div>
