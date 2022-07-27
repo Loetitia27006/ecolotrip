@@ -1,0 +1,116 @@
+#slider {
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1600px;
+  margin: auto;
+}
+
+.subcontainer {
+  width: 85%;
+  margin: auto;
+}
+
+.slide {
+  margin-top: 10px;
+  width: 50px;
+}
+.slide-img {
+
+  width: 50%;
+  height: 275px;
+  border-radius: 5px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+/* 
+svg {
+  height: auto;
+  width: 80px;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  margin: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+} */
+
+
+
+
+
+
+
+/*.slide path:first-child:hover {
+
+
+  fill: #41C2F4;
+
+}*/
+
+#campagne:hover path:nth-child(2),
+#campagne:hover path:first-child {
+  fill: #41C2F4;
+  stroke: #41C2F4;
+}
+
+
+
+
+
+#mer:hover path:nth-child(5),
+#mer:hover path:first-child {
+  fill: #41C2F4;
+}
+
+#montagne:hover path:nth-child(2),
+#montagne:hover path:first-child {
+  fill: #41C2F4;
+  stroke: #41C2F4;
+}
+
+#foret:hover path:nth-child(3),
+#foret:hover path:first-child,
+#foret:hover path:nth-child(4) {
+  fill: #41C2F4;
+  stroke: #41C2F4;
+}
+
+#bus:hover circle,
+#bus:hover path:first-child {
+  fill: #41C2F4;
+
+}
+
+#bateau:hover path:nth-child(2),
+#bateau:hover path:nth-child(3),
+#bateau:hover path:first-child {
+  fill: #41C2F4;
+
+}
+
+#camping:hover path:nth-child(2),
+#camping:hover path:nth-child(3),
+#camping:hover path:first-child {
+  fill: #41C2F4;
+  stroke: #41C2F4;
+
+}
