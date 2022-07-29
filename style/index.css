@@ -192,46 +192,53 @@ h3{
 .newsletter{
     width: 100%;
     background-color: #41C2F4;
+    margin-bottom: 50px;
+
+}
+.news{
     display: flex;
-
-
+    justify-content: flex-end;
+    align-items: center;
 }
 .newsletter img{
     height: 20px;   
 }
 .newsletter button{
     background-color: #F9B532;
+    box-shadow: none;
     padding: 10px;
+    margin: 0;
+    margin-top: 5px;
     float: right;
     border:none;
-    border-radius: 20px;
+    border-radius: 0 10px 10px 0;
     cursor: pointer;
     width: 100px;
-    height: 30px;
-    font-size: 10px;
+    height: 40px;
+    font-size: 12px;
     font-weight: 600;
-    box-shadow: -10px 10px 2px 1px  black;
-    -webkit-border-radius:20px;
-    -moz-border-radius:20px;
-    -ms-border-radius:20px;
-    -o-border-radius:20px;
+    -webkit-border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    -ms-border-radius: 0 10px 10px 0;
+    -o-border-radius: 0 10px 10px 0;
 }
 .newsletter input{
     border: none;
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
     padding: 20px;
     margin-top: 15px;
     margin-bottom: 10px;
     margin-left: 15px;
-    font-size: 20px;
+    margin-right: 0;
+    font-size: 12px;
     font-weight: 500;
     color: #000;
     width: 400px;
-    height: 20px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    height: 30px;
+}
+p img{
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 
