@@ -9,7 +9,7 @@ body{
 }
 
 .wrapper{
-  width: 100vw;
+  width: 100%;
   height: 250px;
   display: flex;
   align-items: center;
@@ -29,9 +29,16 @@ body{
   height: 100px;
   display: flex;
   align-items: center;
+  z-index: auto;
 }
 
-.slide svg{
+.slide a svg{
+  width: 180px;
+  height: 70px;
+  padding: 0 30px 0 30px;
+}
+
+.slide img{
   width: 180px;
   height: 70px;
   padding: 0 30px 0 30px;
@@ -44,7 +51,7 @@ body{
   position: absolute;
   content: "";
   
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 .slider ::before{
@@ -73,12 +80,7 @@ body{
   border-right: 2px #000 solid;
   border-bottom: 2px #000 solid;
   cursor: pointer;
- /*box-shadow: -4px 4px 1px 1px #69DC8A
-  -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
-}*/}
+}
 .arrowRight{
     right: 20%;
     width: 40px;
@@ -90,13 +92,157 @@ body{
     border-right: 2px #000 solid;
     border-bottom: 2px #000 solid;
     cursor: pointer;
-    /*box-shadow: -4px 4px 1px 1px #69D
-    -webkit-transform: rotate(135deg)
-    -moz-transform: rotate(-40deg);
-    -ms-transform: rotate(-40deg);
-    -o-transform: rotate(-40deg);
-    -webkit-transform: rotate(-40deg);*/
+    
 }
+
+.arrowRight:hover, .arrowLeft:hover{
+  border-right: 2px #69DC8A solid;
+  border-bottom: 2px #69DC8A solid;
+}
+
+.slide path:first-child:hover {
+
+
+  fill: #41C2F4;
+
+}
+
+#campagne{
+  position: relative;
+  z-index: 8;
+}
+#campagne2{
+  position: absolute;
+  z-index: 6;
+}
+
+#campagne:hover{
+  z-index: 1;
+}
+
+#voiture{
+  position: relative;
+  z-index: 8;
+}
+#voiture2{
+  position: absolute;
+  z-index: 6;
+}
+
+#voiture:hover{
+  z-index: 1;
+}
+
+#ville{
+  position: relative;
+  z-index: 8;
+}
+#ville2{
+  position: absolute;
+  z-index: 6;
+}
+
+#ville:hover{
+  z-index: 1;
+}
+
+#montagne{
+  position: relative;
+  z-index: 8;
+}
+#montagne2{
+  position: absolute;
+  z-index: 6;
+}
+
+#montagne:hover{
+  z-index: 1;
+}
+
+#foret{
+  position: relative;
+  z-index: 8;
+}
+#foret2{
+  position: absolute;
+  z-index: 6;
+}
+
+#foret:hover{
+  z-index: 1;
+}
+
+#bus{
+  position: relative;
+  z-index: 8;
+}
+#bus2{
+  position: absolute;
+  z-index: 6;
+}
+
+#bus:hover{
+  z-index: 1;
+}
+
+#avion{
+  position: relative;
+  z-index: 8;
+}
+#avion2{
+  position: absolute;
+  z-index: 6;
+}
+
+#avion:hover{
+  z-index: 1;
+}
+
+#bateau{
+  position: relative;
+  z-index: 8;
+}
+#bateau2{
+  position: absolute;
+  z-index: 6;
+}
+
+#bateau:hover{
+  z-index: 1;
+}
+
+#velo{
+  position: relative;
+  z-index: 8;
+}
+#velo2{
+  position: absolute;
+  z-index: 6;
+}
+
+#velo:hover{
+  z-index: 1;
+}
+
+#camping{
+  position: relative;
+  z-index: 8;
+}
+#camping2{
+  position: absolute;
+  z-index: 6;
+}
+
+#camping:hover{
+  z-index: 1;
+}
+
+
+
+
+
+
+
 #campagne:hover path:nth-child(2),
 #campagne:hover path:first-child {
 fill: #41C2F4;
@@ -170,9 +316,4 @@ svg {
 
 
 
-/*.slide path:first-child:hover {
 
-
-  fill: #41C2F4;
-
-}*/

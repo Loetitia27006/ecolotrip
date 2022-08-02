@@ -38,9 +38,10 @@
                     <input type="text" name="search" placeholder="Destination">
                 </div>
                 <div class="date">
-                    <input type="text" name="date" placeholder="Date de départ">
-                    <input type="text" name="date" placeholder="Date de retour">
+                    <input class="dateRetour" type="text" name="date" placeholder="Date de départ">
+                    <input class="dateRetour" type="text" name="date" placeholder="Date de retour">
                     <input type="number" name="voyageurs" id="" min="1" placeholder="voyageur">
+                    <input type="image" src="./images/filtre.svg" alt="">
                 </div>
                 <div class="button">
                     <button>Valider</button>
