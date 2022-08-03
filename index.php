@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./style/header.css">
     <link rel="stylesheet" href="./style/index.css">
     <link rel="stylesheet" href="./includes/slider/slide.css">
+    <link rel="stylesheet" href="./includes/formSearch/form.css">
+    <link rel="stylesheet" href="./style/footer.css">
 </head>
 
 <body>
@@ -22,33 +24,7 @@
 
         <h1>Le very best trip de ta </br> vie commence ici</h1>
 
-
-        <div class="subtext">
-            <a class="typeTravel" href="#">Séjours</a>
-            <a class="typeTravel2" href="#">Hébergement </a>
-            <a class="typeTravel2" href="#">Transport</a>
-        </div>
-        <div class="form">
-
-
-
-            <form action="index.php" method="post">
-                <div class="search">
-                    <input type="text" name="search" placeholder="Départ">
-                    <input type="text" name="search" placeholder="Destination">
-                </div>
-                <div class="date">
-                    <input class="dateRetour" type="text" name="date" placeholder="Date de départ">
-                    <input class="dateRetour" type="text" name="date" placeholder="Date de retour">
-                    <input type="number" name="voyageurs" id="" min="1" placeholder="voyageur">
-                    <input type="image" src="./images/filtre.svg" alt="">
-                </div>
-                <div class="button">
-                    <button>Valider</button>
-                </div>
-            </form>
-        </div>
-
+        <?php include_once './includes/formSearch/form.php'; ?>
 
     </section>
 

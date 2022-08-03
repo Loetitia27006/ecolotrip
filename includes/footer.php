@@ -1,6 +1,6 @@
 
     <footer>
-        <link rel="stylesheet" href="./style/footer.css">
+        
         <p><a href="#">Nous contacter</a></p>
         <p><a href="#">Informations légales</a></p>
         <p><a href="#">A propos de nous</a></p>

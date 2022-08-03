@@ -1,6 +1,5 @@
 <header>
     
-    <link rel="stylesheet" href="../style/header.css">
     <nav>
 
         <div id="menuToggle">
